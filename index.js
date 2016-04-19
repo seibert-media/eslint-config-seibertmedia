@@ -192,39 +192,6 @@ module.exports = {
 			"error",
 			"always"
 		],
-		"wrap-regex": "error",
-
-		// node.js and commonjs
-		"callback-return": "error",
-		"global-require": "error",
-		"handle-callback-err": "error",
-		"no-mixed-requires": "error",
-		"no-new-require": "error",
-		"no-path-concat": "error",
-		"no-process-env": "error",
-		"no-process-exit": "error",
-		"no-restricted-modules": "error",
-		"no-sync": "error",
-
-		// es6 stuff
-		"arrow-body-style": "error",
-		"arrow-parens": "error",
-		"arrow-spacing": "error",
-		"generator-star-spacing": "error",
-		"no-confusing-arrow": "error",
-		"no-duplicate-imports": "error",
-		"no-restricted-imports": "error",
-		"no-useless-constructor": "error",
-		"no-var": "off",
-		"object-shorthand": "off",
-		"prefer-arrow-callback": "off",
-		"prefer-const": "error",
-		"prefer-reflect": "error",
-		"prefer-rest-params": "error",
-		"prefer-spread": "error",
-		"prefer-template": "off",
-		"require-yield": "error",
-		"template-curly-spacing": "error",
-		"yield-star-spacing": "error",
+		"wrap-regex": "error"
 	}
 };
