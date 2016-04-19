@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-seibertmedia",
+  "version": "0.1.0",
+  "description": "WiP: Sharable ESLint config for //SEIBERT/MEDIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seibert-media/eslint-config-seibertmedia.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "//SEIBERT/MEDIA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seibert-media/eslint-config-seibertmedia/issues"
+  },
+  "homepage": "https://github.com/seibert-media/eslint-config-seibertmedia"
+}
