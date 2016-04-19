@@ -25,7 +25,7 @@ module.exports = {
 		"accessor-pairs": "error",
 		"array-callback-return": "error",
 		"block-scoped-var": "warn", // TODO: Useful! Fix it
-		"consistent-return": "off", // not practical
+		"consistent-return": "off", // not useful
 		"curly": "warn", // TODO: Useful! Fix it
 		"default-case": "error",
 		"dot-location": "error",
@@ -43,7 +43,7 @@ module.exports = {
 		"no-extra-bind": "error",
 		"no-extra-label": "error",
 		"no-floating-decimal": "error",
-		"no-implicit-coercion": "error",
+		"no-implicit-coercion": "off", // not useful (e.g. number+string concat)
 		"no-implicit-globals": "warn", // TODO: Useful! Fix it
 		"no-implied-eval": "error",
 		"no-invalid-this": "off", // TODO: Discuss! Maybe useful
@@ -151,13 +151,13 @@ module.exports = {
 		"no-bitwise": "error",
 		"no-continue": "error",
 		"no-inline-comments": "off", // not useful
-		"no-ternary": "off", // TODO: Discuss! Likly controversial
+		"no-ternary": "off", // TODO: Discuss! Likely controversial
 		"no-lonely-if": "error",
 		"no-multiple-empty-lines": "error",
 		"no-negated-condition": "error",
 		"no-nested-ternary": "error",
 		"no-new-object": "error",
-		"no-plusplus": "error",
+		"no-plusplus": "warn", // TODO: Discuss! Likely controversial
 		"no-restricted-syntax": "error",
 		"no-spaced-func": "error",
 		"no-trailing-spaces": "error",
@@ -173,7 +173,7 @@ module.exports = {
 		"operator-assignment": "error",
 		"operator-linebreak": "error",
 		"padded-blocks": "off",
-		"quote-props": ["error", "as-needed"], // TODO: Useful! Fix me
+		"quote-props": ["warn", "as-needed"], // TODO: Useful! Fix me
 		"quotes": ["off", "double"], // TODO: Discuss! Likly controversial
 		"require-jsdoc": "off",
 		"semi": "error", // TODO: Useful! Fix me
