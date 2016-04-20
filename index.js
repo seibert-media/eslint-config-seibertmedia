@@ -28,14 +28,14 @@ module.exports = {
 		"consistent-return": "off", // not useful
 		"curly": "warn", // TODO: Useful! Fix it
 		"default-case": "error",
-		"dot-location": "error",
+		"dot-location": ["warn", "property"],
 		"dot-notation": "error",
 		"eqeqeq": "warn", // TODO: Useful! Fix it
 		"guard-for-in": "error",
 		"no-alert": "warn", // TODO: Discuss! Maybe useful
 		"no-caller": "error",
 		"no-div-regex": "error",
-		"no-else-return": "error",
+		"no-else-return": "warn",
 		"no-empty-function": "error",
 		"no-eq-null": "error",
 		"no-eval": "error",
@@ -120,7 +120,7 @@ module.exports = {
 			"error",
 			"never"
 		],
-		"consistent-this": "error",
+		"consistent-this": ["error", "self"],
 		"eol-last": "error",
 		"func-names": "off", // TODO: Discuss! Not useful
 		"func-style": ["warn", "declaration"],  // TODO: Useful! Fix it
@@ -141,7 +141,7 @@ module.exports = {
 			"error",
 			"unix"
 		],
-		"lines-around-comment": "error",
+		"lines-around-comment": "off", // Not useful
 		"new-cap": "warn", // TODO: Discuss!
 		"new-parens": "error",
 		"newline-after-var": "off", // TODO: Useful! Fix it
@@ -154,7 +154,7 @@ module.exports = {
 		"no-ternary": "off", // TODO: Discuss! Likely controversial
 		"no-lonely-if": "error",
 		"no-multiple-empty-lines": "error",
-		"no-negated-condition": "error",
+		"no-negated-condition": "off", // Not useful
 		"no-nested-ternary": "error",
 		"no-new-object": "error",
 		"no-plusplus": "warn", // TODO: Discuss! Likely controversial
@@ -171,7 +171,7 @@ module.exports = {
 		"one-var": ["error", "never"], // TODO: Useful! Fix me
 		"one-var-declaration-per-line": "error",
 		"operator-assignment": "error",
-		"operator-linebreak": "error",
+		"operator-linebreak": "warn",
 		"padded-blocks": "off",
 		"quote-props": ["warn", "as-needed"], // TODO: Useful! Fix me
 		"quotes": ["off", "double"], // TODO: Discuss! Likly controversial
